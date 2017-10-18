@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>add to Cart Interaction &mdash; Thabang Creates</title>
+</head>
+
+<body>
+    <main>
+        <a href="#0" class="add-to-cart" data-price="25.99">add to busket</a>
+    </main>
+
+    <div class="cart-container empty">
+        <a href="#0" class="cart-trigger">
+				Cart
+				<ul class="count">
+					<li>0</li>
+					<li>0</li>
+				</ul>
+			</a>
+
+        <div class="cart">
+            <div class="wrapper">
+                <header>
+                    <h2>Basket</h2>
+                    <span class="undo">Item removed. <a href="#0">Undo</a></span>
+                </header>
+
+                <div class="body">
+                    <ul>
+                        <!-- products added to the cart will be inserted here using JavaScript -->
+                    </ul>
+                </div>
+
+                <footer>
+                    <a href="#0" class="checkout btn"><em>Checkout &mdash; R<span>0</span></em></a>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        if (!window.jQuery) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
